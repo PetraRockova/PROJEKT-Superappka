@@ -31,3 +31,258 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+.info img{
+width: 70px;
+}
+
+
+h1{
+font-size: 40px;
+font-weight: 400;
+margin: 0 0 0 20px;
+padding-top: 30px;
+}
+
+h2{
+font-size: 16px;
+font-weight: 700;
+color:#56418e;
+margin-top: 8px;
+}
+
+.hero p{
+font-size: 20px;
+font-weight: 300;
+margin-left: 20px;
+margin-top: 30px;
+margin-bottom:30px;
+line-height: 1;
+}
+
+
+.odkazy{
+margin-left: 20px;
+padding-bottom: 30px;
+}
+
+.odkazy a{
+text-decoration: none;
+color: white;
+display: block;
+width: 150px;
+border: 1px solid white;
+border-radius: 5px;
+padding: 6px 10px;
+text-align: center;
+font-size: 14px;
+}
+
+.odkazy a:hover{
+background-color:  #56418e;
+}
+
+.stahnout{
+margin-bottom: 8px;
+}
+
+ul{
+padding:0;
+margin:0;
+}
+
+
+.hlavicka{
+justify-content:flex-start;
+font-weight: 500;
+}
+
+.logo{
+font-weight: 600;
+padding-left: 20px;
+padding-top: 15px;
+font-size: 20px;
+
+}
+
+.menu{
+padding-left: 15px;
+margin:0;
+}
+
+.menu a{
+text-decoration: none;
+display: block;
+color: #56418e;
+padding: 15px 5px;
+font-size: 20px;
+}
+
+.menu a:hover{
+background-color:  #56418e;
+color:white;
+}
+
+.menu li{
+display: inline-block;
+font-size: 14px;
+}
+
+
+.hero{
+color: white;
+margin-bottom: 30px;
+background-image: url(images/pozadi.jpg);
+background-repeat: no-repeat;
+background-position: center;
+min-height: 250px;
+position: relative;
+}
+
+.hero img{
+width: 145px;
+position:absolute;
+bottom: 0;
+right: 0;
+
+}
+
+.info{
+text-align:center;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+footer{
+color: white;
+text-align: center;
+background-color: #56418e;
+}
+
+footer p{
+margin-bottom: 0;
+}
+
+
+@media screen and (min-width: 550px){
+
+.hlavicka{
+display: flex;
+align-items: baseline;
+}
+
+h1{
+font-size: 60px;
+}
+
+.hero p{
+font-size: 30px;
+}
+
+.hero img{
+width: 180px;
+}
+
+.odkazy a{
+padding-bottom: 20px;
+display: inline-block;
+padding: 6px 10px;
+font-size: 16px;
+}
+
+.stahnout{
+margin-bottom: 0;
+margin-right: 8px;
+}
+
+
+.letadlo, .bubliny, .mapa{
+display: flex;
+margin-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.info p{
+margin: 10px 0;
+}
+
+.info{
+padding: 0;
+}
+
+h2{
+margin: 0;
+font-size: 18px;
+}
+
+.info img{
+width: 80px;
+}
+
+.uvod{
+margin-left: 10px;
+}
+
+.menu{
+font-size: 20px;
+padding-left:20px;
+}
+
+.menu a{
+padding: 15px 10px;
+}
+
+}
+
+
+
+@media screen and (min-width: 860px){
+
+
+h1{
+font-size: 90px;
+font-weight: 400;
+}
+
+h2{
+font-size: 20px;
+font-weight: 700;
+}
+
+.hero p{
+font-size: 36px;
+font-weight: 300;
+}
+
+.odkazy a{
+font-size: 20px;
+width: 170px;
+}
+
+.hero{
+min-height: 450px;
+}
+
+.hero img{
+width: 360px;
+}
+
+
+.info{
+display: flex;
+}
+
+.letadlo, .bubliny, .mapa{
+display: block;
+}
+
+.menu a{
+padding: 15px 20px;
+}
+
+.menu{
+padding-left: 30px;
+}
+
+
+}
